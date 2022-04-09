@@ -1,9 +1,12 @@
-import './App.css';
+import {Comments, Posts, Users} from "./Components";
+
 
 function App() {
   return (
     <div>
-
+      <Users/>
+      <Posts/>
+      <Comments/>
     </div>
   );
 }
