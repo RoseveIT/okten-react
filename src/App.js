@@ -1,10 +1,20 @@
 import Users from "./Componets/Users";
+import Posts from "./Componets/Posts";
+import Comments from "./Componets/Comments";
 
 
 function App() {
   return (
     <div>
-      <Users/>
+        USERS
+        <Users/>
+        <br/>
+        POSTS
+        <Posts/>
+        <br/>
+        COMMENTS
+        <Comments/>
+
     </div>
   );
 }

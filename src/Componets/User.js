@@ -4,7 +4,7 @@ const User = ({user}) => {
     const {id, name, username, email} = user;
     return (
         <div>
-            {id} - {name} - {username} - {email}
+            <b>{id} - {name} - {username}</b> - {email}
         </div>
     );
 };
