@@ -1,9 +1,11 @@
-import './App.css';
+import {Users, User} from "./Components";
 
-function App() {
+
+const App = () => {
   return (
     <div>
-
+      <Users/>
+      <User/>
     </div>
   );
 }
