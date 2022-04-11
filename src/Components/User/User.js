@@ -1,10 +1,14 @@
 import React from 'react';
 
-const User = ({user}) => {
-    const {id, user, username} = user;
+const User = ({user, getUserId, getUser}) => {
+    const {id, name, username} = user;
     return (
         <div>
             <span>{id} - {name} - {username}</span>
+            <button onClick={()=> {
+                getUserId(id)
+                getUser(user)
+            }} >clc</button>
         </div>
     );
 };

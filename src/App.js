@@ -1,11 +1,15 @@
-import {Users, User} from "./Components";
-
+// import {Users, User, SingleUser} from "./Components";
+// import {useState} from "react";
+import { Form} from "./Components"
 
 const App = () => {
+    // const [singleUser, setSingleUser] = useState(null)
+
   return (
     <div>
-      <Users/>
-      <User/>
+        {/*{singleUser && <SingleUser user={singleUser} />}*/}
+        {/*<Users getUser={setSingleUser}  />*/}
+        <Form/>
     </div>
   );
 }
